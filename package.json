@@ -1,0 +1,19 @@
+{
+  "name": "fds",
+  "version": "1.0.0",
+  "description": "This is a dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dance"
+  ],
+  "author": "Anurag",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Anurag's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+      ul
+      div#logo
+        img(src="../static/img/logo1.png")
+        | ADA
+        li #[a(href='/') Home ]
+        li #[a(href='/') About]
+        li #[a(href='/') Services]
+        li #[a(href='/') Class Info]
+        li #[a(href='/') Contact Us]
+    section#introSection
+      div Welcome To Anurag's Dance Academy
+      div.small Eat Sleep Dance Repeat
+    
+    section#missionSection
+      h1 Our Mission
+      div.card
+        h2 Dance Perfection
+        div.cardBox
+          div.card-img
+            img(src="/static/img/mission4.jpg")
+          div.card-content
+            p This is the best dance academy 3
+      div.card
+        h2 Dance The Way You Like
+        div.cardBox
+          div.card-img
+            img(src="/static/img/mission5.jpg")
+          div.card-content
+            p This is the best dance academy 
+
+      div.card
+        h2 Expert Instructors
+        div.cardBox
+          div.card-img
+            img(src="/static/img/mission6.jpg")
+          div.card-content
+            p This is the best dance academy 
+
+        
+    section#sponsorSection
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/img/sponsor1j.jpg",alt="Sponsor Image",class="spimage")
+        img(src="/static/img/sponsor2p.png",alt="Sponsor Image",class="spimage")
+        img(src="/static/img/sponsor3j.jpg",alt="Sponsor Image",class="spimage")
+        img(src="/static/img/sponsor4.png",alt="Sponsor Image",class="spimage")
+    
+
+    footer#footer 
+      | Copyright @2021 AnuragDanceAcademy.com | All rights Reserved
+      
+    script
+      include ../static/index.js
+      

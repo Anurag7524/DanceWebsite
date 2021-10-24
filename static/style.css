@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*
+{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+
+}
+#logo
+{
+    display:flex;
+    color:white;
+    align-items:center;
+    margin:0px 25px;
+    font-size:25px;
+    margin-right:40px;
+}
+#logo img
+{
+    height:30px;
+    width:30px;
+    margin:8px;
+    filter:invert(1);
+}
+#navbar
+{
+    background-color:#ed7575;
+    padding:14px 30px;
+    font-family: 'Permanent Marker', cursive;
+    border:2px solid black;
+   
+}
+#navbar ul
+{
+  display:flex;
+  flex-direction:row;
+  /* justify-content:center; */
+  align-items:center;
+  
+}
+#navbar li
+{
+    list-style:none;
+   
+}
+#navbar li a
+{
+    text-decoration:none;
+    padding:10px 20px;
+    font-size:1.1rem;
+    color:white;
+}
+#navbar li a:hover
+{
+    color:black;
+    font-size:1.3rem;
+}
+
+#introSection
+{
+    border:4px solid black;
+    padding-bottom:90px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    font-weight:bold;
+    justify-content:center;
+    align-items:center;
+ background:center / cover no-repeat url("/static/bg.jpg");
+  height:410px;
+  font-size:50px;
+  background-color:red;
+   
+}
+#introSection div.small
+{
+    font-size:30px;
+    padding:5px;
+    color:#f98e6d;
+
+}
+
+#missionSection
+{
+    display:flex;
+    justify-content:center;
+    height:300px;
+    background-color:white;
+    border:4px solid black;
+    
+}
+#missionSection h1
+{
+    text-align:center;
+    padding-top:88px;
+}
+.card
+{  
+    display:inline;
+   
+    border:2px solid black;
+    border-radius:10px; 
+    width:30%;
+    height:200px;
+    margin:32px 20px;
+}
+.card:hover
+{  
+    background-color:#ed7575;
+}
+.card h2
+{
+    text-align:center;
+    margin-top:12px;
+}
+.cardBox
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.card-img
+{
+    height:100px;
+    padding:0 10px;
+    margin:5px 8px;
+}
+.card-img img
+{
+height:inherit;
+padding:0 10px;
+margin:5px 8px;
+}
+.card-content p
+{
+padding:0 15px;
+font-size:20px;
+font-weight:bold;
+}
+
+
+#sponsorSection
+{
+    height:300px;
+    background-color:rgb(238, 172, 172);
+    border:4px solid black;
+}
+#sponsorSection h2
+{
+   text-align:center; 
+   padding-top:23px;
+   font-weight:bold;
+}
+#sponsors
+{
+    height:120px;
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.spimage
+{
+    height:90%;
+    margin:20px;
+    margin-left:40px;
+    border:2px solid black;
+
+    border-radius:4px;
+}
+.spimage:hover
+{
+   cursor:pointer;
+   height:13rem;
+}
+
+
+#footer
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:60px;
+    background-color:black;
+    color:white;
+}
